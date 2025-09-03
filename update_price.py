@@ -5,8 +5,8 @@ from pathlib import Path
 csv_path = Path("Start Your Own/chatgpt_portfolio_update.csv")
 
 # Parameters to edit
-ticker_to_update = "LIDR"   # <-- change to your ticker
-new_buy_price = 3.50        # <-- change to your new buy price
+ticker_to_update = "HOFT"   # <-- change to your ticker
+new_buy_price = 10.15        # <-- change to your new buy price
 
 # Load CSV
 df = pd.read_csv(csv_path)
