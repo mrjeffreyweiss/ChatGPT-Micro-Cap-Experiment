@@ -1,4 +1,4 @@
 Date,Ticker,Shares,Cost Basis,Stop Loss,Current Price,Total Value,PnL,Action,Cash Balance,Total Equity,Buy Price
-2025-09-02,CASH,0,0,, , , , ,10000,10000,
-2025-09-02,LIDR,0,0,0.10, , , , ,10000,10000,
-2025-09-02,ALMU,0,0,0.10, , , , ,10000,10000,
+2025-09-02,CASH,0,0,,, , ,INIT,10000,10000,
+2025-09-02,LIDR,0,0,0.10,,,,,10000,10000,
+2025-09-02,ALMU,0,0,0.10,,,,,10000,10000,
