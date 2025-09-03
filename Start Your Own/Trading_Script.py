@@ -10,7 +10,8 @@ from trading_script import main
 
 
 if __name__ == "__main__":
-
-    data_dir = Path(__file__).resolve().parent
-    main("Start Your Own/chatgpt_portfolio_update.csv", Path("Start Your Own"))
+    from pathlib import Path
+    csv_path = Path("Start Your Own/chatgpt_portfolio_update.csv").resolve()
+    data_dir = Path("Start Your Own").resolve()  # or Path.cwd() if main expects repo root
+    main(str(csv_path), data_dir)
 
