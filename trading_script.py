@@ -1089,6 +1089,10 @@ def daily_results(chatgpt_portfolio: pd.DataFrame, cash: float) -> None:
 # Orchestration
 # ------------------------------
 
+print("[DEBUG] df_total rows:", len(df_total))
+print("[DEBUG] df_total tail:\n", df_total.tail(10))
+print("[DEBUG] df_total dtypes:\n", df_total.dtypes)
+
 def load_latest_portfolio_state(
     file: str,
 ) -> tuple[pd.DataFrame | list[dict[str, Any]], float]:
