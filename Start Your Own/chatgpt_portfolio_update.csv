@@ -1,4 +1,4 @@
 Date,Ticker,Shares,Cost Basis,Stop Loss,Current Price,Total Value,PnL,Action,Cash Balance,Total Equity,Buy Price
-2025-09-03,CASH,0,0,,,,,INIT,10000,10000,
-2025-09-03,LIDR,1,2.00,0.10,,,,BUY,9998,9998,2.00
-2025-09-03,TOTAL,,,,,,,,10000,10000,
+2025-09-03,CASH,0,0.0,0.0,,,,NO DATA,,,0.0
+2025-09-03,LIDR,1,2.0,0.1,,,,NO DATA,,,2.0
+2025-09-03,TOTAL,,,,,0.0,0.0,,1000.0,1000.0,
