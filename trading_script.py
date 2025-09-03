@@ -1140,10 +1140,9 @@ def load_latest_portfolio_state(
 
     df_total = df[df["Ticker"] == "TOTAL"].copy()
     df_total["Date"] = pd.to_datetime(df_total["Date"])
-print("[DEBUG] df_total rows:", len(df_total))
-print("[DEBUG] df_total tail:\n", df_total.tail(10))
-print("[DEBUG] df_total dtypes:\n", df_total.dtypes)
-
+    print("[DEBUG] df_total rows:", len(df_total))
+    print("[DEBUG] df_total tail:\n", df_total.tail(10))
+    print("[DEBUG] df_total dtypes:\n", df_total.dtypes)
     latest = df_total.sort_values("Date").iloc[-1]
     cash = float(latest["Cash Balance"])
     return latest_tickers, cash
