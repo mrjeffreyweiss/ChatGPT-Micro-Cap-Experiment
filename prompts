@@ -1,0 +1,5 @@
+//make sure to change date
+python3 trading_script.py \
+  --file "Start Your Own/chatgpt_portfolio_update.csv" \
+  --data-dir "Start Your Own" \
+  --asof 2025-09-04
